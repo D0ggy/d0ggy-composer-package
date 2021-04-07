@@ -1,0 +1,21 @@
+{
+    "name": "d0ggy/test",
+    "description": "d0ggy 的第一个c composer 包",
+    "type": "1",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "zhaozeren",
+            "email": "zhaozeren_1994@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "D0ggy\\": "src/d0ggy"
+        }
+    }
+}
